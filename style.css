@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+#jogo{
+    width:600px;
+    height:600px;
+    border:solid 3px;
+}
+.linha{
+    display: flex;
+    height:200px;
+    border-bottom:solid 1px;
+}
+.casa{
+    width:200px;
+    height:200px;
+    border-right:solid 1px;
+    float: left;
+}
+#casa1 {
+    background-image: url(img/luigi.png);
+    background-repeat: no-repeat;
+
+}
+#casa2 {
+    background-image: url(img/mario.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+#casa3 {
+    background-image: url(img/peach.png);
+    background-repeat: no-repeat;
+}
+#casa4 {
+    background-image: url(img/tartaruga.jpg);
+    background-repeat: no-repeat; 
+}
+#casa5 {
+    background-color: red;
+}
+#casa6 {
+    background-image: url(img/luigi.png);
+    background-repeat: no-repeat;
+}#casa7 {
+    background-image: url(img/mario.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}#casa8 {
+    background-image: url(img/tartaruga.jpg);
+    background-repeat: no-repeat;
+}#casa9{
+    background-image: url(img/peach.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+img {
+    width: 100%;
+    height: 100%;
+}
+.visivel{
+    display: none;
+}
